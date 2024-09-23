@@ -16,4 +16,15 @@ Object Handler
 `npm install @sineverba/object-handler`
 
 ## Usage
-TODO
+1. Import module
+
+```js
+import { objectHandler } from "@sineverba/object-handler";
+
+const initialObject = { id: 1, player_name: "foo" };
+const mapping = { value: "id", label: "player_name" };
+
+const transformedObject = objectHandler(initialObject, mapping);
+
+console.log(transformedObject); // Output: { value: 1, label: "foo" }
+```
