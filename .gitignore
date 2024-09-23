@@ -1,0 +1,12 @@
+coverage
+node_modules
+build
+npm-debug.log
+.env
+.DS_Store
+.nyc_output
+.scannerwork/
+.test_report/
+data/
+lib/
+dist/
